@@ -11,7 +11,10 @@ A **Superitendência de Tecnologia de Informação** está implementando sua inf
 O projeto consiste em planejar, configurar e testar uma rede corporativa composta por **4 departamentos**, utilizando o **Cisco Packet Tracer** como ambiente de simulação.
 Abaixo os critérios do projeto:
 
-- Cada departamento possui: **10 estações de trabalho (PCs)**, **2 servidores de e-mail (SMTP e POP)**, **2 servidores web (HTTP)**. **Total: 14 hosts por departamento**
+- Cada departamento possui: **10 estações de trabalho (PCs)**
+- - **Infraestrutura de servidores centralizada** (na rede de Infraestrutura):
+  - 2 Servidores de E-MAIL (**SMTP** e **POP3**)
+  - 2 Servidores WEB (**HTTP**)
 - Deve ser usada uma máscara de sub-rede que atenda a necessidade apresentada
 - Para a numeração IPs, deve-se usar uma sequência nas sub-redes de acordo com a máscara adotada
 - Cada departamento deve estar em uma sub-rede
@@ -23,7 +26,7 @@ Departamentos:
 - Engenharia  
 - Compras  
 - TI Interno  
-- Infraestrutura  
+- Infraestrutura (contém os servidores centrais da rede)  
 
 ---
 
@@ -32,6 +35,7 @@ Departamentos:
 - Criar uma topologia de rede lógica e funcional para a empresa **Super Tech**.  
 - Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **DNS**, **HTTP** e **E-MAIL (SMTP e POP)**.  
 - Implementar **roteamento inter-VLAN (Router-on-a-Stick)** para comunicação entre departamentos.  
+- Tornar os **servidores centrais acessíveis a partir de qualquer rede**.  
 - Garantir **conectividade total (LAN ↔ WAN)** entre todos os dispositivos.  
 - Validar o funcionamento dos serviços de rede e da comunicação entre os setores.
 
@@ -53,7 +57,9 @@ Departamentos:
 - **Roteador Cisco 2811** — realizando roteamento inter-VLAN (Router-on-a-Stick).  
 - **Switches Cisco 2950-24** — um por departamento.  
 - **Topologia Estrela**, com o roteador como ponto central.  
-- **Quatro VLANs**: Engenharia (10), Compras (20), TI Interno (30) e Infraestrutura (40). 
+- **Quatro VLANs**: Engenharia (10), Compras (20), TI Interno (30) e Infraestrutura (40).  
+- Os **servidores centrais** (HTTP e E-MAIL) estão localizados na VLAN 40 (Infraestrutura).  
+- Todos os outros departamentos acessam os serviços da VLAN 40 através do roteador.
 
 ---
 
@@ -73,13 +79,13 @@ Departamentos:
    - Adicione dispositivos e verifique se eles obtêm IP automaticamente.  
 8. **Teste o serviço DNS:**
    - Faça um **ping para `ufba.br`** e **`cisco.srv`**.  
-9. **Teste o serviço HTTP do provedor:**
+9. **Teste o serviço HTTP (servidor da VLAN 40):**
+   - Acesse o **site da Super Tech** (HTTP) a partir de dispositivos de outras VLANs.  
    - Altere o arquivo `index.html` e verifique se as alterações aparecem ao acessar de outros dispositivos.  
-10. **Teste o serviço HTTP local da rede amarela:**
-    - Acesse o site interno pelos dispositivos da rede amarela e também de redes externas.  
-11. **Teste o serviço de E-MAIL (SMTP e POP):**
-    - Configure clientes de e-mail nos PCs para enviar e receber mensagens entre departamentos.  
-    - Verifique se o envio e o recebimento funcionam corretamente entre os servidores e estações.
+10. **Teste o serviço de E-MAIL (SMTP e POP):**
+    - Configure os clientes de e-mail nos PCs das outras VLANs.  
+    - Envie e receba mensagens entre departamentos utilizando os servidores de e-mail da VLAN 40 (Infraestrutura).  
+11. **Garanta que todos os serviços (HTTP, DNS, DHCP e E-MAIL)** estejam acessíveis por qualquer rede.
 
 ---
 
