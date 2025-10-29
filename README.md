@@ -9,12 +9,13 @@
 
 A **Superitendência de Tecnologia de Informação** está implementando sua infraestrutura de rede local e de interconexão entre departamentos.  
 O projeto consiste em planejar, configurar e testar uma rede corporativa composta por **4 departamentos**, utilizando o **Cisco Packet Tracer** como ambiente de simulação.
+Abaixo os critérios do projeto:
 
-Cada departamento possui:
-- **10 estações de trabalho (PCs)**
-- **2 impressoras**
-- **2 servidores**
-- **Total: 14 hosts por departamento**
+- Cada departamento possui: **10 estações de trabalho (PCs)**, **2 impressoras**, **2 servidores**. **Total: 14 hosts por departamento**
+- Deve ser usada uma máscara de sub-rede que atenda a necessidade apresentada
+- Para a numeração IPs, deve-se usar uma sequência nas sub-redes de acordo com a máscara adotada
+- Cada departamento deve estar em uma sub-rede. Configure uma Vlan nas subs-rede. Configure uma VLAN nas sub-redes
+- Os departamentos de Engenharia e T.I. Interno devem ser colocados IPs estáticos, já nos departamentos de compras e Infraestrutura devem ser colocados IPs dinâmicos, de maneira que siga a sequência dos IPs estáticos.
 
 Departamentos:
 - Engenharia  
