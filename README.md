@@ -32,7 +32,7 @@ Departamentos:
 
 ## OBJETIVOS
 
-- Criar uma topologia de rede lógica e funcional para a empresa **Super Tech**.  
+- Criar uma topologia de rede lógica e funcional para a empresa **Superitendência de Tecnologia de Informação**.  
 - Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **DNS**, **HTTP** e **E-MAIL (SMTP e POP)**.  
 - Implementar **roteamento inter-VLAN (Router-on-a-Stick)** para comunicação entre departamentos.  
 - Tornar os **servidores centrais acessíveis a partir de qualquer rede**.  
@@ -80,7 +80,7 @@ Departamentos:
 8. **Teste o serviço DNS:**
    - Faça um **ping para `ufba.br`** e **`cisco.srv`**.  
 9. **Teste o serviço HTTP (servidor da VLAN 40):**
-   - Acesse o **site da Super Tech** (HTTP) a partir de dispositivos de outras VLANs.  
+   - Acesse o **site da Superitendência de Tecnologia de Informação** (HTTP) a partir de dispositivos de outras VLANs.  
    - Altere o arquivo `index.html` e verifique se as alterações aparecem ao acessar de outros dispositivos.  
 10. **Teste o serviço de E-MAIL (SMTP e POP):**
     - Configure os clientes de e-mail nos PCs das outras VLANs.  
