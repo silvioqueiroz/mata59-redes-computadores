@@ -11,7 +11,7 @@ A **Superitendência de Tecnologia de Informação** está implementando sua inf
 O projeto consiste em planejar, configurar e testar uma rede corporativa composta por **4 departamentos**, utilizando o **Cisco Packet Tracer** como ambiente de simulação.
 Abaixo os critérios do projeto:
 
-- Cada departamento possui: **10 estações de trabalho (PCs)**, **2 impressoras**, **2 servidores**. **Total: 14 hosts por departamento**
+- Cada departamento possui: **10 estações de trabalho (PCs)**, **2 servidores de e-mail (SMTP e POP)**, **2 servidores web (HTTP)**. **Total: 14 hosts por departamento**
 - Deve ser usada uma máscara de sub-rede que atenda a necessidade apresentada
 - Para a numeração IPs, deve-se usar uma sequência nas sub-redes de acordo com a máscara adotada
 - Cada departamento deve estar em uma sub-rede
@@ -29,8 +29,8 @@ Departamentos:
 
 ## OBJETIVOS
 
-- Criar uma topologia de rede lógica e funcional para a **Superitendência de Tecnologia de Informação**.  
-- Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **DNS**, **HTTP** e **Wireless**.  
+- Criar uma topologia de rede lógica e funcional para a empresa **Super Tech**.  
+- Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **DNS**, **HTTP** e **E-MAIL (SMTP e POP)**.  
 - Implementar **roteamento inter-VLAN (Router-on-a-Stick)** para comunicação entre departamentos.  
 - Garantir **conectividade total (LAN ↔ WAN)** entre todos os dispositivos.  
 - Validar o funcionamento dos serviços de rede e da comunicação entre os setores.
@@ -53,7 +53,7 @@ Departamentos:
 - **Roteador Cisco 2811** — realizando roteamento inter-VLAN (Router-on-a-Stick).  
 - **Switches Cisco 2950-24** — um por departamento.  
 - **Topologia Estrela**, com o roteador como ponto central.  
-- **Quatro VLANs**: Engenharia (10), Compras (20), TI Interno (30) e Infraestrutura (40).  
+- **Quatro VLANs**: Engenharia (10), Compras (20), TI Interno (30) e Infraestrutura (40). 
 
 ---
 
@@ -67,7 +67,7 @@ Departamentos:
    - VLANs
    - Endereçamento IP (estático e DHCP)
    - Roteamento inter-VLAN (Router-on-a-Stick)
-   - DNS e HTTP
+   - DNS, HTTP e E-MAIL (SMTP e POP)
 6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)** e os **sniffers** do Packet Tracer.  
 7. **Teste o serviço DHCP:**
    - Adicione dispositivos e verifique se eles obtêm IP automaticamente.  
@@ -77,6 +77,9 @@ Departamentos:
    - Altere o arquivo `index.html` e verifique se as alterações aparecem ao acessar de outros dispositivos.  
 10. **Teste o serviço HTTP local da rede amarela:**
     - Acesse o site interno pelos dispositivos da rede amarela e também de redes externas.  
+11. **Teste o serviço de E-MAIL (SMTP e POP):**
+    - Configure clientes de e-mail nos PCs para enviar e receber mensagens entre departamentos.  
+    - Verifique se o envio e o recebimento funcionam corretamente entre os servidores e estações.
 
 ---
 
