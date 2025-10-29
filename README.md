@@ -12,7 +12,7 @@ O projeto consiste em planejar, configurar e testar uma rede corporativa compost
 Abaixo os critérios do projeto:
 
 - Cada departamento possui: **10 estações de trabalho (PCs)**
-- - **Infraestrutura de servidores centralizada** (na rede de Infraestrutura):
+- **Infraestrutura de servidores centralizada** (na rede de Infraestrutura):
   - 2 Servidores de E-MAIL (**SMTP** e **POP3**)
   - 2 Servidores WEB (**HTTP**)
 - Deve ser usada uma máscara de sub-rede que atenda a necessidade apresentada
