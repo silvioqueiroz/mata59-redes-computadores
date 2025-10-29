@@ -150,8 +150,9 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
   - DHCP
   - DNS
   - HTTP
+  - E-MAIL (SMTP e POP)
   - Wireless (SSID, senha e segurança)
-- **Registros DNS configurados corretamente** nos servidores primário e secundário.  
+- **Registros DNS configurados corretamente** nos servidores primário e secundário.   
 
 ### Critério de validação
 - Todas as redes (LAN e WAN) funcionando e interconectadas.  
