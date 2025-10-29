@@ -1,6 +1,6 @@
 # PROJETO — Superitendência de Tecnologia de Informação  
 **Disciplina:** Redes de Computadores — Ciência da Computação — UFBA  
-**Professor:** Leobino Sampaio
+**Professor:** Leobino Sampaio  
 **Aluno(s):** [Nome dos integrantes]  
 
 ---
@@ -165,5 +165,4 @@ Através da simulação no **Cisco Packet Tracer**, o grupo deverá demonstrar c
 **Autor(es):** [Nomes dos integrantes]  
 **Grupo:** [Número]  
 **Curso:** Ciência da Computação — UFBA  
-**Professor:** Leobino Sampaio
-**Data:** Outubro / 2025  
+**Professor:** Leobino Sampaio   
