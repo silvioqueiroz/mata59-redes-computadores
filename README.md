@@ -101,7 +101,7 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
 
 ### O que deve conter
 - Configuração **das redes LAN** de cada departamento (Engenharia, Compras, TI Interno e Infraestrutura).  
-- Cada LAN deve possuir seus dispositivos (PCs, impressoras e servidores) interligados via **Switch Cisco 2950-24**.  
+- Cada LAN deve possuir seus dispositivos (PCs e servidores) interligados via **Switch Cisco 2950-24**.  
 - O roteador central pode estar presente, mas **sem conexão entre LANs ainda configurada**.
 
 ### Critério de validação
@@ -128,7 +128,7 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
 ### Critério de validação
 - Comunicação entre todos os dispositivos das redes LAN e WAN (ping entre departamentos).  
 - Conectividade garantida por meio do roteamento configurado.  
-- **Não é necessário configurar serviços de DNS, HTTP ou Wireless nesta etapa.**
+- **Não é necessário configurar serviços de DNS, HTTP ou E-MAIL nesta etapa.**
 
 ---
 
