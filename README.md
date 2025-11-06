@@ -56,7 +56,7 @@ Departamentos:
 - **Roteador Cisco 2811** — realizando roteamento inter-VLAN (Router-on-a-Stick).  
 - **Switches Cisco 2950-24** — um por departamento.  
 - **Topologia Estrela**, com o roteador como ponto central.  
-- **Quatro VLANs**: Engenharia (10), Compras (20), TI Interno (30) e Infraestrutura (40).  
+- **Quatro VLANs**: Engenharia, Compras, TI Interno e Infraestrutura.  
 - Os **servidores centrais** (HTTP e E-MAIL) estão localizados na VLAN 40 (Infraestrutura).  
 - Todos os outros departamentos acessam os serviços da VLAN 40 através do roteador.
 
@@ -72,12 +72,8 @@ Departamentos:
    - VLANs
    - Endereçamento IP (estático e DHCP)
    - Roteamento inter-VLAN (Router-on-a-Stick)
-   - DNS, HTTP e E-MAIL (SMTP e POP)
-6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)** e os **sniffers** do Packet Tracer.  
-7. **Teste o serviço DHCP:**
-   - Adicione dispositivos e verifique se eles obtêm IP automaticamente.  
-8. **Teste o serviço DNS:**
-   - Faça um **ping para `ufba.br`** e **`cisco.srv`**.  
+   - Servidores e Impressoras
+6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)**.  
 9. **Teste o serviço HTTP (servidor da VLAN 40):**
    - Acesse o **site da Superitendência de Tecnologia de Informação** (HTTP) a partir de dispositivos de outras VLANs.  
    - Altere o arquivo `index.html` e verifique se as alterações aparecem ao acessar de outros dispositivos.  
