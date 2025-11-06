@@ -11,7 +11,7 @@ A **Superitendência de Tecnologia de Informação** está implementando sua inf
 O projeto consiste em planejar, configurar e testar uma rede corporativa composta por **4 departamentos**, utilizando o **Cisco Packet Tracer** como ambiente de simulação.
 Abaixo os critérios do projeto:
 
-- Cada departamento possui: **10 estações de trabalho (PCs)**
+- Cada departamento possui: **20 estações de trabalho (PCs)**
 - **Infraestrutura de servidores centralizada** (na rede de Infraestrutura):
   - 2 Servidores de E-MAIL (**SMTP** e **POP3**)
   - 2 Servidores WEB (**HTTP**)
@@ -45,10 +45,10 @@ Departamentos:
 
 | Departamento | VLAN | Rede | 1º IP válido | Último IP válido | Broadcast | Gateway |
 |---------------|------|-------------|----------------|------------------|------------|-----------|
-| Engenharia | 10 | 192.168.100.0/28 | 192.168.100.1 | 192.168.100.14 | 192.168.100.15 | 192.168.100.1 |
-| Compras | 20 | 192.168.100.16/28 | 192.168.100.17 | 192.168.100.30 | 192.168.100.31 | 192.168.100.17 |
-| TI Interno | 30 | 192.168.100.32/28 | 192.168.100.33 | 192.168.100.46 | 192.168.100.47 | 192.168.100.33 |
-| Infraestrutura | 40 | 192.168.100.48/28 | 192.168.100.49 | 192.168.100.62 | 192.168.100.63 | 192.168.100.49 |
+| Engenharia |  | 192.168.100.0/28 | 192.168.100.1 | 192.168.100.14 | 192.168.100.15 | 192.168.100.1 |
+| Compras |  | 192.168.100.16/28 | 192.168.100.17 | 192.168.100.30 | 192.168.100.31 | 192.168.100.17 |
+| TI Interno |  | 192.168.100.32/28 | 192.168.100.33 | 192.168.100.46 | 192.168.100.47 | 192.168.100.33 |
+| Infraestrutura |  | 192.168.100.48/28 | 192.168.100.49 | 192.168.100.62 | 192.168.100.63 | 192.168.100.49 |
 
 ---
 
@@ -65,7 +65,7 @@ Departamentos:
 
 ## 🧭 INSTRUÇÕES
 
-1. **Baixe e instale o Cisco Packet Tracer.**  
+1. **Baixe e instale o Cisco Packet Tracer[https://www.netacad.com/resources/lab-downloads?courseLang=en-US].**  
 2. **Baixe e abra o arquivo `template.pkt`.**  
 3. **Coloque os dispositivos e equipamentos de rede**, conforme o planejamento do projeto.  
 4. **Conecte-os usando os enlaces apropriados (cabos e interfaces corretas).**  
