@@ -10,7 +10,7 @@
 A **Superitendência de Tecnologia de Informação** está implementando sua infraestrutura de rede local e de interconexão entre departamentos.  
 O projeto consiste em planejar, configurar e testar uma rede corporativa composta por **4 departamentos**, utilizando o **Cisco Packet Tracer** como ambiente de simulação.
 Abaixo os critérios do projeto:
-- Implementar **roteamento inter-VLAN (Router-on-a-Stick)** em um roteador Cisco 2811
+- Implementar **roteamento inter-VLAN (Router-on-a-Stick)** em um roteador 1941
 - Utilizar **topologia estrela**, com um **switch 2950-24** por departamento
 - Cada departamento possui: **19 estações de trabalho (PCs)**, **2 Servidores** e **2 Impressoras**.
 - Utilizar **endereçamento IP Classe C**
@@ -73,14 +73,13 @@ Departamentos:
    - Endereçamento IP (estático e DHCP)
    - Roteamento inter-VLAN (Router-on-a-Stick)
    - Servidores e Impressoras
-6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)**.  
-9. **Teste o serviço HTTP (servidor da VLAN 40):**
-   - Acesse o **site da Superitendência de Tecnologia de Informação** (HTTP) a partir de dispositivos de outras VLANs.  
-   - Altere o arquivo `index.html` e verifique se as alterações aparecem ao acessar de outros dispositivos.  
+6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)**.
+7. Teste o serviço DHCP:
+   - Adicione dispositivos e verifique se eles obtêm IP automaticamente.  
 10. **Teste o serviço de E-MAIL (SMTP e POP):**
     - Configure os clientes de e-mail nos PCs das outras VLANs.  
     - Envie e receba mensagens entre departamentos utilizando os servidores de e-mail da VLAN 40 (Infraestrutura).  
-11. **Garanta que todos os serviços (HTTP, DNS, DHCP e E-MAIL)** estejam acessíveis por qualquer rede.
+11. **Garanta que todos os serviços (HTTP, impressoras e DHCP)** estejam acessíveis por qualquer rede.
 
 ---
 
