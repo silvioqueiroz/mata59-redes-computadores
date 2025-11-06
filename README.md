@@ -10,30 +10,29 @@
 A **Superitendência de Tecnologia de Informação** está implementando sua infraestrutura de rede local e de interconexão entre departamentos.  
 O projeto consiste em planejar, configurar e testar uma rede corporativa composta por **4 departamentos**, utilizando o **Cisco Packet Tracer** como ambiente de simulação.
 Abaixo os critérios do projeto:
-
-- Cada departamento possui: **20 estações de trabalho (PCs)**
-- **Infraestrutura de servidores centralizada** (na rede de Infraestrutura):
-  - 2 Servidores de E-MAIL (**SMTP** e **POP3**)
-  - 2 Servidores WEB (**HTTP**)
-- Deve ser usada uma máscara de sub-rede que atenda a necessidade apresentada
-- Para a numeração IPs, deve-se usar uma sequência nas sub-redes de acordo com a máscara adotada
+- Implementar **roteamento inter-VLAN (Router-on-a-Stick)** em um roteador Cisco 2811
+- Utilizar **topologia estrela**, com um **switch 2950-24** por departamento
+- Cada departamento possui: **19 estações de trabalho (PCs)**, **2 Servidores** e **2 Impressoras**.
+- Utilizar **endereçamento IP Classe C**
 - Cada departamento deve estar em uma sub-rede
-- Configure uma Vlan nas subs-rede
-- Configure uma VLAN nas sub-redes
-- Os departamentos de Engenharia e T.I. Interno devem ser colocados IPs estáticos, já nos departamentos de compras e Infraestrutura devem ser colocados IPs dinâmicos, de maneira que siga a sequência dos IPs estáticos.
+- Para a numeração IPs, deve-se usar uma sequência nas sub-redes de acordo com a máscara adotada
+- Cada departamento será uma **VLAN distinta**
+- Deve ser usada uma máscara de sub-rede que atenda a necessidade apresentada
+- Configurar **endereçamento estático** para Engenharia e TI Interno
+- Configurar **endereçamento dinâmico (DHCP)** para Compras e Infraestrutura
 
 Departamentos:
 - Engenharia  
 - Compras  
 - TI Interno  
-- Infraestrutura (contém os servidores centrais da rede)  
+- Infraestrutura
 
 ---
 
 ## OBJETIVOS
 
 - Criar uma topologia de rede lógica e funcional para a empresa **Superitendência de Tecnologia de Informação**.  
-- Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **DNS**, **HTTP** e **E-MAIL (SMTP e POP)**.  
+- Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **Gateways**.  
 - Implementar **roteamento inter-VLAN (Router-on-a-Stick)** para comunicação entre departamentos.  
 - Tornar os **servidores centrais acessíveis a partir de qualquer rede**.  
 - Garantir **conectividade total (LAN ↔ WAN)** entre todos os dispositivos.  
