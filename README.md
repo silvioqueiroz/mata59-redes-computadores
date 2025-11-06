@@ -64,7 +64,7 @@ Departamentos:
 
 ## 🧭 INSTRUÇÕES
 
-1. **Baixe e instale o Cisco Packet Tracer[https://www.netacad.com/resources/lab-downloads?courseLang=en-US].**  
+1. **Baixe e instale o [Cisco Packet Tracer](https://www.netacad.com/resources/lab-downloads?courseLang=en-US).**  
 2. **Baixe e abra o arquivo `template.pkt`.**  
 3. **Coloque os dispositivos e equipamentos de rede**, conforme o planejamento do projeto.  
 4. **Conecte-os usando os enlaces apropriados (cabos e interfaces corretas).**  
