@@ -103,11 +103,11 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
 ### Critério de validação
 - Todos os dispositivos **de uma mesma LAN** devem se comunicar via **ping (ICMP)**.  
 - Cada VLAN deve estar corretamente configurada no switch correspondente.  
-- **Não é necessário conectar LAN ↔ WAN nesta etapa.**
+- **Não é necessário conectar as VLAN nesta etapa.**
 
 ---
 
-## 🌐 2) ENTREGA DA REDE WAN
+## 🌐 2) ENTREGA DA INTERCONEXÕES DAS VLANS
 
 ### Arquivos exigidos
 - Arquivo texto (**.txt**) contendo:
@@ -116,15 +116,14 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
 - Arquivo do Packet Tracer (**.pkt**)
 
 ### O que deve conter
-- Dispositivos das **redes LAN e WAN** devidamente conectados e configurados.  
-- O roteador Cisco 2811 deve estar configurado com as **subinterfaces 802.1Q** para realizar **roteamento inter-VLAN**.  
+- Dispositivos das **redes LANs** devidamente conectados e configurados.  
+- O roteador Cisco 1941 deve estar configurado para realizar **roteamento inter-VLAN**.  
 - Cada departamento deve estar em uma VLAN com gateway configurado no roteador.  
 - **DHCP configurado apenas para Compras e Infraestrutura.**
 
 ### Critério de validação
-- Comunicação entre todos os dispositivos das redes LAN e WAN (ping entre departamentos).  
+- Comunicação entre todos os dispositivos das redes LAN e VLANS (ping entre departamentos).  
 - Conectividade garantida por meio do roteamento configurado.  
-- **Não é necessário configurar serviços de DNS, HTTP ou E-MAIL nesta etapa.**
 
 ---
 
@@ -139,29 +138,22 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
 - **Arquivo Packet Tracer (.pkt)**
 
 ### O que deve conter
-- Configuração completa das **redes LAN e WAN** com todos os dispositivos.  
-- Todos os enlaces (cabeados e wireless) devidamente configurados e operantes.  
+- Configuração completa das **redes LAN e VLANS** com todos os dispositivos.  
+- Todos os enlaces devidamente configurados e operantes.  
 - **Conectividade total entre todos os dispositivos finais (ICMP ping).**  
 - **Serviços de rede configurados e testados:**
   - DHCP
-  - DNS
-  - HTTP
-  - E-MAIL (SMTP e POP)
-  - Wireless (SSID, senha e segurança)
-- **Registros DNS configurados corretamente** nos servidores primário e secundário.   
-
+    
 ### Critério de validação
-- Todas as redes (LAN e WAN) funcionando e interconectadas.  
+- Todas as redes (LAN e VLANS) funcionando e interconectadas.  
 - Comunicação funcional entre todos os dispositivos (ping e acesso a serviços).  
-- Servidores HTTP acessíveis por nome (resolução DNS).  
-- DHCP, DNS e Wireless devidamente operacionais.
 
 ---
 
 ## CONCLUSÃO
 
-O projeto da **Superitendência de Tecnologia de Informação** propõe a implementação completa de uma rede corporativa, abordando desde o planejamento de endereçamento até a integração WAN com todos os serviços de rede ativos.  
-Através da simulação no **Cisco Packet Tracer**, o grupo deverá demonstrar conhecimento prático em VLANs, roteamento, DHCP, DNS e HTTP, garantindo conectividade e confiabilidade de comunicação entre os departamentos.
+O projeto da **Superitendência de Tecnologia de Informação** propõe a implementação completa de uma rede corporativa, abordando desde o planejamento de endereçamento até a integração VLAN com todos os serviços de rede ativos.  
+Através da simulação no **Cisco Packet Tracer**, o grupo deverá demonstrar conhecimento prático em VLANs, roteamento, DHCP e HTTP, garantindo conectividade e confiabilidade de comunicação entre os departamentos.
 
 ---
 
