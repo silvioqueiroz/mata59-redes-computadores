@@ -10,7 +10,7 @@
 A **Superitendência de Tecnologia de Informação** está implementando sua infraestrutura de rede local e de interconexão entre departamentos.  
 O projeto consiste em planejar, configurar e testar uma rede corporativa composta por **4 departamentos**, utilizando o **Cisco Packet Tracer** como ambiente de simulação.
 Abaixo os critérios do projeto:
-- Implementar **roteamento inter-VLAN (Router-on-a-Stick)** em um roteador 1941
+- Implementar **roteamento inter-VLAN (Router-on-a-Stick)** em um roteador 1941 com extensão de portas HWIE-4ESW
 - Utilizar **topologia estrela**, com um **switch 2950-24** por departamento
 - Cada departamento possui: **19 estações de trabalho (PCs)**, **2 Servidores** e **2 Impressoras**.
 - Utilizar **endereçamento IP Classe C**
@@ -35,7 +35,7 @@ Departamentos:
 - Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **Gateways**.  
 - Implementar **roteamento inter-VLAN (Router-on-a-Stick)** para comunicação entre departamentos.  
 - Tornar os **servidores centrais acessíveis a partir de qualquer rede**.  
-- Garantir **conectividade total (LAN ↔ WAN)** entre todos os dispositivos.  
+- Garantir **conectividade total entre todas as VLANs** entre todos os dispositivos.  
 - Validar o funcionamento dos serviços de rede e da comunicação entre os setores.
 
 ---
@@ -53,12 +53,11 @@ Departamentos:
 
 ## TOPOLOGIA GERAL
 
-- **Roteador Cisco 2811** — realizando roteamento inter-VLAN (Router-on-a-Stick).  
+- **Roteador 1941** — realizando roteamento inter-VLAN (Router-on-a-Stick).  
 - **Switches Cisco 2950-24** — um por departamento.  
 - **Topologia Estrela**, com o roteador como ponto central.  
-- **Quatro VLANs**: Engenharia, Compras, TI Interno e Infraestrutura.  
-- Os **servidores centrais** (HTTP e E-MAIL) estão localizados na VLAN 40 (Infraestrutura).  
-- Todos os outros departamentos acessam os serviços da VLAN 40 através do roteador.
+- **Quatro VLANs**: Engenharia, Compras, TI Interno e Infraestrutura.
+
 
 ---
 
@@ -76,10 +75,7 @@ Departamentos:
 6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)**.
 7. Teste o serviço DHCP:
    - Adicione dispositivos e verifique se eles obtêm IP automaticamente.  
-10. **Teste o serviço de E-MAIL (SMTP e POP):**
-    - Configure os clientes de e-mail nos PCs das outras VLANs.  
-    - Envie e receba mensagens entre departamentos utilizando os servidores de e-mail da VLAN 40 (Infraestrutura).  
-11. **Garanta que todos os serviços (HTTP, impressoras e DHCP)** estejam acessíveis por qualquer rede.
+8. **Garanta que todos os serviços (HTTP, impressoras e DHCP)** estejam acessíveis por qualquer rede.
 
 ---
 
