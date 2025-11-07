@@ -20,7 +20,7 @@ Abaixo os critérios do projeto:
 - Deve ser usada uma máscara de sub-rede que atenda a necessidade apresentada
 - Configurar **endereçamento estático** para Engenharia e TI Interno
 - Configurar **endereçamento dinâmico (DHCP)** para Compras e Infraestrutura
-- As VLANs vedem ter 10 (VLAN01) e 09 (VLAN02) estações
+- As VLANs devem possuir 10 (VLAN01) e 09 (VLAN02) estações
 
 Departamentos:
 - Engenharia  
