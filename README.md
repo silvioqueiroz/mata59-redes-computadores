@@ -106,29 +106,10 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
 - Cada VLAN deve estar corretamente configurada no switch correspondente.  
 - **Não é necessário conectar as VLAN nesta etapa.**
 
----
-
-## 🌐 2) ENTREGA DA INTERCONEXÕES DAS VLANS
-
-### Arquivos exigidos
-- Arquivo texto (**.txt**) contendo:
-  - Nome / número do grupo  
-  - Nome dos integrantes  
-- Arquivo do Packet Tracer (**.pkt**)
-
-### O que deve conter
-- Dispositivos das **redes LANs** devidamente conectados e configurados.  
-- O roteador Cisco 1941 deve estar configurado para realizar **roteamento inter-VLAN**.  
-- Cada departamento deve estar em uma VLAN com gateway configurado no roteador.  
-- **DHCP configurado apenas para Compras e Infraestrutura.**
-
-### Critério de validação
-- Comunicação entre todos os dispositivos das redes LAN e VLANS (ping entre departamentos).  
-- Conectividade garantida por meio do roteamento configurado.  
 
 ---
 
-## 🧾 3) ENTREGA FINAL
+## 🧾 2) ENTREGA FINAL
 
 ### Arquivos exigidos
 - **Slides de apresentação (.pdf)**  
