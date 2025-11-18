@@ -113,7 +113,6 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
 ## 🧾 2) ENTREGA FINAL
 
 ### Arquivos exigidos
-- **Slides de apresentação (.pdf)**  
 - **Relatório final (.pdf)**  
   - Descrevendo o que foi feito, como foi feito e por quem foi feito (integrantes da equipe).  
   - Seguindo as normas da **ABNT**.  
