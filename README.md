@@ -12,7 +12,7 @@ O projeto consiste em planejar, configurar e testar uma rede corporativa compost
 Abaixo os critérios do projeto:
 - Implementar **roteamento inter-VLAN (Router-on-a-Stick)** em um roteador 1941 com extensão de portas HWIE-4ESW
 - Utilizar **topologia estrela**, com um **switch 2950-24** por departamento
-- Cada departamento possui: **19 estações de trabalho (PCs)**, **2 Servidores** e **2 Impressoras**.
+- Cada departamento possui: **19 estações de trabalho (PCs)**, **3 Servidores** e **1 Impressoras**.
 - Utilizar **endereçamento IP Classe C**
 - Cada departamento deve estar em uma sub-rede
 - Para a numeração IPs, deve-se usar uma sequência nas sub-redes de acordo com a máscara adotada
