@@ -77,6 +77,7 @@ Departamentos:
 7. Teste o serviço DHCP:
    - Adicione dispositivos e verifique se eles obtêm IP automaticamente.  
 8. **Garanta que todos os serviços (HTTP, impressoras e DHCP)** estejam acessíveis por qualquer rede.
+9. Na [lista](https://youtube.com/playlist?list=PLa4oweaeUYBAWjpCDcC77l65_OKXscHAs&si=-Kgamt8-S9TU9YKO) existem alguns vídeos demonstrando o uso da ferramenta.
 
 ---
 
