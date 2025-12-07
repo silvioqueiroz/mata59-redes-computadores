@@ -133,7 +133,10 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
     
 ### Critério de validação
 - Todas as redes (LAN e VLANS) funcionando e interconectadas.  
-- Comunicação funcional entre todos os dispositivos (ping e acesso a serviços).  
+- Comunicação funcional entre todos os dispositivos (ping e acesso a serviços).
+
+### Modelo do Relatório:
+- [Modelo do Relatório](https://github.com/silvioqueiroz/mata59-redes-computadores/blob/main/relatorio_redes_modelo-final.docx)
 
 ---
 
