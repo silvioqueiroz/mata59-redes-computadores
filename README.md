@@ -73,11 +73,15 @@ Departamentos:
    - Endereçamento IP (estático e DHCP)
    - Roteamento inter-VLAN (Router-on-a-Stick)
    - Servidores e Impressoras
-6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)**.
+   - Utilize serviço de DNS para o site mata59.ufba.br
+   - Configure um serviço http para o site mata59.ufba.br (não é necessário implementar o site, pode usar o exemplo do serviço existente como demonstrado em aula
+6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)**
 7. Teste o serviço DHCP:
+8. Teste o serviço DNS
+9. Teste o acesso ao site mata59.ufba.br
    - Adicione dispositivos e verifique se eles obtêm IP automaticamente.  
-8. **Garanta que todos os serviços (HTTP, impressoras e DHCP)** estejam acessíveis por qualquer rede.
-9. Na [lista](https://youtube.com/playlist?list=PLa4oweaeUYBAWjpCDcC77l65_OKXscHAs&si=-Kgamt8-S9TU9YKO) existem alguns vídeos demonstrando o uso da ferramenta.
+10. **Garanta que todos os serviços (HTTP, impressoras e DHCP)** estejam acessíveis por qualquer rede.
+11. Na [lista](https://youtube.com/playlist?list=PLa4oweaeUYBAWjpCDcC77l65_OKXscHAs&si=-Kgamt8-S9TU9YKO) existem alguns vídeos demonstrando o uso da ferramenta.
 
 ---
 
