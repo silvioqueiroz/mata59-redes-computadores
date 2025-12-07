@@ -33,7 +33,7 @@ Departamentos:
 ## OBJETIVOS
 
 - Criar uma topologia de rede lógica e funcional para a empresa **Superitendência de Tecnologia de Informação**.  
-- Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **DNS**, **Serviço HTTP** e **Gateways**.  
+- Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **DNS**, **Serviço Web HTTP** e **Gateways**.  
 - Implementar **roteamento inter-VLAN (Router-on-a-Stick)** para comunicação entre departamentos.  
 - Tornar os **servidores centrais acessíveis a partir de qualquer rede**.  
 - Garantir **conectividade total entre todas as VLANs** entre todos os dispositivos.  
@@ -74,7 +74,7 @@ Departamentos:
    - Roteamento inter-VLAN (Router-on-a-Stick)
    - Servidores e Impressoras
    - Utilize serviço de DNS para o site mata59.ufba.br
-   - Configure um serviço http para o site mata59.ufba.br (não é necessário implementar o site, pode usar o exemplo do serviço existente como demonstrado em aula
+   - Configure um serviço web http para o site mata59.ufba.br (não é necessário implementar o site, pode usar o exemplo do serviço existente como demonstrado em aula
 6. **Teste a configuração IP, enlaces e conexões de rede** usando pacotes **ICMP (ping)**
 7. Teste o serviço DHCP:
 8. Teste o serviço DNS
