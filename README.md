@@ -129,6 +129,8 @@ Ao término de cada etapa, cada grupo deve submeter os **arquivos solicitados (e
 - **Conectividade total entre todos os dispositivos finais (ICMP ping).**  
 - **Serviços de rede configurados e testados:**
   - DHCP
+  - DNS
+  - Serviço web http
     
 ### Critério de validação
 - Todas as redes (LAN e VLANS) funcionando e interconectadas.  
