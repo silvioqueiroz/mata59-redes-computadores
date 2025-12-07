@@ -33,7 +33,7 @@ Departamentos:
 ## OBJETIVOS
 
 - Criar uma topologia de rede lógica e funcional para a empresa **Superitendência de Tecnologia de Informação**.  
-- Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **Gateways**.  
+- Planejar e configurar **endereçamento IP**, **VLANs**, **DHCP**, **DNS**, **Serviço HTTP** e **Gateways**.  
 - Implementar **roteamento inter-VLAN (Router-on-a-Stick)** para comunicação entre departamentos.  
 - Tornar os **servidores centrais acessíveis a partir de qualquer rede**.  
 - Garantir **conectividade total entre todas as VLANs** entre todos os dispositivos.  
